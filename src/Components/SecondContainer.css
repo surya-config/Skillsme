@@ -1,0 +1,496 @@
+.secondContainer {
+  background-color: white;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.secondContainer__left {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  color: black;
+  margin-right: 160px;
+  overflow: hidden;
+}
+
+.secondContainer__right {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  font-family: "roboto", sans-serif;
+}
+
+.secondContainer__firstComponent,
+.secondContainer__secondComponent,
+.secondContainer__thirdComponent,
+.secondContainer__fourthComponent {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 80px 90px;
+  overflow: hidden;
+}
+
+.secondContainer__secondComponent {
+  margin-left: 30px;
+}
+
+.secondContainer__secondComponent > .secondContainer__left {
+  margin: 0px 30px;
+}
+
+.secondContainer__firstComponent > .secondContainer__left > h6,
+.secondContainer__secondComponent > .secondContainer__left > h6,
+.secondContainer__thirdComponent > .secondContainer__left > h6,
+.secondContainer__fourthComponent > .secondContainer__left > h6 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #a841e6;
+  margin-bottom: 15px;
+}
+
+.secondContainer__firstComponent > .secondContainer__left > h1,
+.secondContainer__secondComponent > .secondContainer__left > h1,
+.secondContainer__thirdComponent > .secondContainer__left > h1,
+.secondContainer__fourthComponent > .secondContainer__left > h1 {
+  font-size: 45px;
+  line-height: 53px;
+  color: #010c39;
+  width: 100%;
+  margin-bottom: 30px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 800;
+}
+
+.secondContainer__firstComponent > .secondContainer__left > p,
+.secondContainer__secondComponent > .secondContainer__left > p,
+.secondContainer__thirdComponent > .secondContainer__left > p,
+.secondContainer__fourthComponent > .secondContainer__left > p,
+.secondContainer__para {
+  font-size: 16px;
+  line-height: 26px;
+  color: #787878;
+  margin-bottom: 20px;
+  width: 90%;
+  font-family: "Karla", sans-serif;
+}
+
+.secondContainer__firstComponentCard {
+  width: 320px;
+  height: 340px;
+  box-shadow: 1px 2px 7px 4px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  margin: 0;
+  border-radius: 10px;
+  border-color: #dbdbdb;
+  color: #999;
+  border-width: 1px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+  margin-top: -25px;
+  padding: 20px;
+}
+
+.secondContainer__firstComponentCard > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.secondContainer__firstComponentCard__firstContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 160px;
+  color: black;
+}
+
+.secondContainer__firstComponentCard__firstContent
+  > .secondContainer__firstComponentCard__name__content__name {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.secondContainer__firstComponentCard__firstContent
+  > .secondContainer__firstComponentCard__name__content__name
+  > img {
+  width: 35px;
+  height: 35px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  display: inline-block;
+  /* vertical-align: top; */
+  border: 4px white solid;
+  margin-right: 5px;
+}
+
+.secondContainer__firstComponentCard__firstContent
+  > .secondContainer__firstComponentCard__name__content__name
+  > h5 {
+  font-family: inherit;
+  font-weight: 500;
+  font-style: inherit;
+  font-size: 14px;
+  color: inherit;
+}
+
+.secondContainer__firstComponentCard__name__type {
+  display: inline-block;
+  border-radius: 24px;
+  font-size: 0.75rem;
+  margin-right: 20px;
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 5px 10px;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+.secondContainer__firstComponentCard > h2 {
+  font-size: 20px;
+  line-height: 28px;
+  color: #000;
+}
+
+.secondContainer__firstComponentCard > h6 {
+  display: inline-block;
+  border-radius: 24px;
+  font-size: 12px;
+  line-height: 18px;
+  margin-right: 20px;
+  background-color: #19d47e;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 30px;
+}
+
+.secondContainer__firstComponentCard > h6:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.secondContainer__firstComponentCard__button {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.secondContainer__firstComponentCard__button > h5 {
+  font-size: 16px;
+  line-height: 36px;
+  color: #000;
+}
+
+.secondContainer__secondComponentCard {
+  padding: 25px 35px;
+  width: 456px;
+  height: 280px;
+  box-shadow: 1px 2px 7px 4px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  margin: 0 50px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.secondContainer__secondComponentCardHeaderContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin-left: 15px;
+}
+
+.secondContainer__secondComponentCardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.secondContainer__secondComponentCardHeader > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.secondContainer__secondComponentCardHeaderTopContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.secondContainer__secondComponentCardHeaderTopContent > img {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  width: 20px !important;
+  height: auto !important;
+  margin-left: 4px !important;
+  border-radius: 50% !important;
+  -webkit-transform: translateY(-3px) !important;
+  transform: translateY(-3px) !important;
+}
+
+.secondContainer__secondComponentRating {
+  margin-left: 10px;
+  padding: 1px 6px;
+  min-height: 0;
+  background-color: #0062ff !important;
+  color: white !important;
+  -webkit-transform: translateY(-1px);
+  transform: translateY(-1px);
+  border-radius: 24px;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.secondContainer__secondComponentFeedback {
+  background: #19d47e !important;
+  color: #fcfcfc !important;
+  border-radius: 24px;
+  padding: 1px 6px;
+  font-size: 12px;
+  line-height: 18px;
+  margin-right: 5px;
+}
+
+.secondContainer__secondComponentCard > p:nth-child(2) {
+  color: black;
+  font-size: 15px;
+  line-height: 22px;
+  position: relative;
+  margin-top: 60px;
+}
+
+.secondContainer__secondComponentCard > p {
+  color: black;
+  font-size: 15px;
+  line-height: 22px;
+  position: relative;
+  margin-top: 15px;
+  width: 105%;
+}
+
+.secondContainer__secondComponentTime {
+  font-size: 12px;
+  line-height: 17.6px;
+  color: #999999;
+}
+
+.secondContainer__secondComponentCardTags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.secondContainer__secondComponentCardTags > h6 {
+  color: #0366d6;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.6px;
+  margin-top: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.secondContainer__secondComponentCardTags > h6:hover {
+  text-decoration: underline;
+}
+
+.secondContainer__thirdComponent > .secondContainer__left {
+  flex: 0.8;
+  margin-right: 0;
+}
+
+.secondContainer__thirdComponent > .secondContainer__left > p {
+  width: 90%;
+}
+
+.secondContainer__thirdComponentCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.secondContainer__thirdComponentSubCard {
+  width: 500px;
+  height: 120px;
+  visibility: visible;
+  animation-delay: 400ms;
+  animation-name: fadeInUp;
+  line-height: 1.5;
+  padding: 15px 40px;
+  border-color: #dbdbdb;
+  color: #999;
+  border-width: 1px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  box-shadow: 1px 2px 7px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.secondContainer__thirdComponentSubCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.2) !important;
+}
+
+.secondContainer__thirdComponentSubCardHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.secondContainer__thirdComponentSubCard > img {
+  position: relative;
+  top: 5px;
+  left: -5px;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.secondContainer__thirdComponentSubCardHeaderTop {
+  display: flex;
+  align-items: center;
+}
+
+.secondContainer__thirdComponentSubCardHeaderTop > h3 {
+  font-size: 19px;
+  margin-top: -5px;
+  color: #007bff;
+}
+
+.secondContainer__thirdComponentSubCardHeaderTop > h4 {
+  font-size: 19px;
+  line-height: 27.4px;
+  color: #777777;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.secondContainer__thirdComponentSubCardHeaderTop > h4:hover {
+  text-decoration: underline;
+}
+
+.secondContainer__thirdComponentSubCardHeaderBottom {
+  display: flex;
+  align-items: center;
+}
+
+.secondContainer__thirdComponentSubCardHeaderBottom > h4 {
+  font-size: 12px;
+  line-height: 18px;
+
+  padding: 4px 9px 4px 9px !important;
+  border-radius: 24px !important;
+  font-size: 0.75rem !important;
+  line-height: 18px !important;
+  background-color: #37a5c2 !important;
+  color: #fcfcfc !important;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.secondContainer__thirdComponentSubCardHeaderTop > img {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  width: 20px !important;
+  height: auto !important;
+  margin-left: 5px !important;
+  border-radius: 50% !important;
+  -webkit-transform: translateY(-3px) !important;
+  transform: translateY(-3px) !important;
+}
+
+.secondContainer__thirdComponentLocation {
+  margin-top: 15px;
+  width: 120%;
+}
+
+.secondContainer__thirdComponentLocation > h4:nth-child(1) {
+  font-size: 14px;
+  line-height: 21px;
+  color: #999999;
+  font-weight: 400;
+  float: left;
+}
+
+.secondContainer__thirdComponentLocation > h4 {
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  font-weight: 400;
+}
+
+.secondContainer__thirdComponentSalary > h4:nth-child(odd) {
+  font-size: 14px;
+  line-height: 21px;
+  color: #999999;
+  font-weight: 400;
+  float: left;
+}
+
+.secondContainer__thirdComponentSalary > h4:nth-child(3) {
+  margin-left: 10px;
+}
+
+.secondContainer__thirdComponentSalary > h4 {
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  font-weight: 400;
+  float: left;
+}
+
+.secondContainer__fourthComponent > .secondContainer__left {
+  flex: 0.6;
+  margin-right: 50px;
+}
+
+.secondContainer__fourthComponent > .secondContainer__left > p {
+  width: 100%;
+}
+
+.secondContainer__fourthComponentImage {
+  width: 500px;
+  height: 460px;
+  margin-right: 80px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(50px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}

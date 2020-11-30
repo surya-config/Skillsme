@@ -1,0 +1,144 @@
+.firstContainer {
+  display: flex;
+  flex: 1;
+  background-color: #f5f5f3;
+  overflow: hidden;
+}
+
+.firstContainer__left {
+  display: flex;
+  margin: 120px;
+}
+
+.firstContainer__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 100px 0px;
+  color: black;
+
+  background: url("https://www.myskillsme.com/images/contact/03.png") no-repeat;
+  background-position: top right;
+  background-position-x: 190px;
+}
+
+@media only screen and (min-width: 426px) {
+  .block-hide-mobile {
+    display: block;
+  }
+}
+
+.companies__row1,
+.companies__row2,
+.companies__row3,
+.companies__row4,
+.companies__row5 {
+  display: flex;
+  margin: 0 20px;
+}
+
+.companies__row2,
+.companies__row4 {
+  margin-left: 70px;
+}
+
+.divider {
+  margin: 10px;
+}
+
+.firstContainer__right > h6 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #a841e6;
+  margin-bottom: 15px;
+}
+
+.firstContainer__right > h1 {
+  font-size: 45px;
+  line-height: 53px;
+  color: #010c39;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.firstContainer__rightAnimation {
+  background: url("https://www.myskillsme.com/images/contact/01.png");
+  content: "";
+  width: 66px;
+  height: 8px;
+
+  display: inline-block;
+  animation: slide 10s linear infinite;
+  -webkit-animation: slide 10s linear infinite;
+  margin-bottom: 25px;
+}
+
+.firstContainer__rightCards {
+  display: flex;
+  align-items: center;
+}
+
+.firstContainer__rightCard {
+  width: 171px;
+  height: 171px;
+  margin-right: 30px;
+ 
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 21px 15px;
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0px 0px 30px 0px rgba(130, 130, 130, 0.1);
+}
+
+.firstContainer__rightCard > img {
+  margin-bottom:10px;
+  
+}
+
+.firstContainer__rightCard > h2 {
+  font-size: 38px;
+  line-height: 30px;
+  color: #a841e6;
+  margin-bottom: 13px;
+}
+
+.firstContainer__rightCard > h5 {
+  font-size: 16px;
+  line-height: 28px;
+  color: #787878;
+}
+
+.firstContainer__rightCard:hover {
+  background: #0c1b54;
+}
+
+.firstContainer__rightCard:hover > h2 > span,
+.firstContainer__rightCard:hover > h5 {
+  color: white;
+}
+
+.firstContainer__rightCard > h2 > span:hover {
+  text-decoration: underline;
+}
+
+.firstContainer__right > p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #787878;
+  margin-bottom: 50px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(50px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,425 @@
+.fourthContainer {
+  height: 40vh;
+  position: relative;
+  color: black;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.fourthContainer__cards {
+  display: flex;
+  align-items: center;
+  margin: 80px;
+  width: 90%;
+  overflow: hidden;
+}
+
+.fourthContainer__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 0.4;
+  color: black;
+  padding: 0.5rem !important;
+  padding-right: 60px !important;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+  fill: rgb(18, 100, 163);
+  width: 57.6;
+  height: 57.6;
+  margin-bottom: 20px;
+}
+
+.fourthContainer__card > h3 {
+  color: #1264a3;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 1px solid #1264a3;
+  word-break: break-word;
+  font-size: 1.15rem;
+  transition: none 0s;
+  margin-bottom: 20px;
+  font-family: "roboto", sans-serif;
+}
+
+.fourthContainer__card > p {
+  line-height: 26px;
+  margin-bottom: 22px;
+  font-size: 16px;
+  color: #787878;
+}
+
+.fourthContainer__reviewSection {
+  background-image: url("https://www.myskillsme.com/images/testimonial/10.jpg");
+
+  position: relative;
+  background-size: cover;
+  padding: 101px 0 63px 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.fourthContainer__rectangle4 {
+  top: 8%;
+  left: 6%;
+  position: absolute;
+  width: 130px;
+  height: 187px;
+  opacity: 0.06;
+  filter: alpha(opacity=0.06);
+  -moz-opacity: 0.06;
+  -khtml-opacity: 0.06;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.06)";
+  background-color: #ffffff;
+}
+
+.fourthContainer__rectangle5 {
+  top: 4%;
+  left: 2%;
+  position: absolute;
+  width: 233px;
+  height: 286px;
+  opacity: 0.06;
+  filter: alpha(opacity=0.06);
+  -moz-opacity: 0.06;
+  -khtml-opacity: 0.06;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.06)";
+  background-color: #ffffff;
+}
+
+.fourthContainer__rectangle6 {
+  top: 0;
+  left: -1%;
+  position: absolute;
+  width: 233px;
+  height: 286px;
+  opacity: 0.06;
+  filter: alpha(opacity=0.06);
+  -moz-opacity: 0.06;
+  -khtml-opacity: 0.06;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.06)";
+  background-color: #ffffff;
+}
+
+.fourthContainer__reviewSection > h1 {
+  position: absolute;
+  color: white;
+  font-size: 45px;
+  line-height: 56px;
+  width: 30%;
+  top: 100px;
+  left: 14px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollable__reviews::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.scrollable__reviews {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+
+.testimonial-box {
+  padding: 68px 40px 50px 54px;
+  margin-bottom: 30px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 300px;
+  margin-right: 30px;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  float: right;
+  height: auto;
+}
+
+.avatar > img {
+  height: 96px;
+  width: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.polygon > img {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  border: 0;
+  background: transparent;
+  max-width: 100%;
+  height: auto;
+  height: 96px;
+  width: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 50px;
+  left: 75px;
+}
+
+.testimonial-box > p {
+  font-size: 20px;
+  line-height: 31px;
+  color: white;
+  margin-top: 100px;
+}
+
+.testimonial-box > h4 {
+  font-size: 21px;
+  line-height: 28px;
+  color: white;
+  margin-top: 20px;
+}
+
+.testimonial-box > h6 {
+  font-size: 15px;
+  line-height: 28px;
+  color: #ffc600;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.judgeUsers__headerAnimation {
+  background: url("https://www.myskillsme.com/images/contact/01.png");
+  content: "";
+  width: 66px;
+  height: 8px;
+
+  display: inline-block;
+  animation: slide 10s linear infinite;
+  -webkit-animation: slide 10s linear infinite;
+  margin-bottom: 45px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(50px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.judgeUsers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: #f3f4f4;
+}
+
+.judgeUsers__users {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.judgeUsers > h4 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #a841e6;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.judgeUsers > h2 {
+  font-size: 45px;
+  line-height: 53px;
+  color: #010c39;
+  margin-bottom: 20px;
+}
+
+.judgeUsers__usersRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left: 100px;
+  padding-right: 70px;
+  flex-wrap: wrap;
+}
+
+.judgeUsers__usersRow:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: content;
+  position: relative;
+  margin-left: 180px;
+}
+
+.judgeUsers__usersRow:nth-child(3) {
+  display: flex;
+  align-items: center;
+  justify-content: content;
+  position: relative;
+  margin-left: 90px;
+  margin-right: 100px;
+}
+
+.judgeUsers__user > img {
+  border-radius: 50%;
+  opacity: 0.66;
+  margin-right: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 100%;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  margin: 10px;
+}
+
+.judgeUsers__user:hover {
+  position: relative;
+  z-index: 999;
+}
+
+.judgeUsers__userCard {
+  display: none;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  background-color: #fff;
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 8px;
+  padding: 32px;
+  width: 400px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 7px 4px rgba(0, 0, 0, 0.2);
+}
+
+.judgeUsers__userCard > h3 {
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #787878;
+}
+
+.judgeUsers__userCard > h4 {
+  font-size: 12px;
+  line-height: 28px;
+  color: #777777;
+  letter-spacing: 1.2px;
+}
+
+.judgeUsers__user > img:hover ~ .judgeUsers__userCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 65px;
+  -webkit-transform: translate(-50%, -90%) scale(0.8);
+  -ms-transform: translate(-50%, -90%) scale(0.8);
+  transform: translate(-50%, -90%) scale(0.8);
+  top: 32px;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  background-color: #fff;
+  opacity: 1;
+  pointer-events: none;
+  border-radius: 8px;
+  padding: 32px;
+  width: 400px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 6;
+}
+
+.judgeUsers__user > img:hover {
+  opacity: 1;
+  position: relative;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.faqContainer {
+  display: flex;
+  flex: 1;
+  margin-top: 200px;
+}
+
+.faq__left {
+  flex: 0.5;
+}
+
+.faq__left > img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 80px;
+  animation: updown 1s infinite alternate;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.faq__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 0.5;
+}
+
+.faq__right > small {
+  font-size: 18px;
+  line-height: 28px;
+  color: #a841e6;
+  margin-bottom: 20px;
+}
+
+.faq__right > h1 {
+  font-size: 45px;
+  line-height: 53px;
+  color: #010c39;
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+.faq__questions,
+.faq__question {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.faq__question > button {
+  font-size: 21px;
+  line-height: 30px;
+  color: #010c39;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-weight: 600;
+}
+
+.faq__question > p {
+  margin: 5px 5px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #787878;
+  width: 500px;
+}
